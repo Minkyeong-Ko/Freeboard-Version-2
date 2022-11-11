@@ -9,23 +9,30 @@
 /* Begin PBXBuildFile section */
 		21D5B87D291E22F000864137 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D5B87C291E22F000864137 /* AppDelegate.swift */; };
 		21D5B87F291E22F000864137 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D5B87E291E22F000864137 /* SceneDelegate.swift */; };
-		21D5B881291E22F000864137 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D5B880291E22F000864137 /* ViewController.swift */; };
 		21D5B884291E22F000864137 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D5B882291E22F000864137 /* Main.storyboard */; };
 		21D5B887291E22F000864137 /* FreeboardVersion2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21D5B885291E22F000864137 /* FreeboardVersion2.xcdatamodeld */; };
 		21D5B889291E22F100864137 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21D5B888291E22F100864137 /* Assets.xcassets */; };
 		21D5B88C291E22F100864137 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D5B88A291E22F100864137 /* LaunchScreen.storyboard */; };
+		21D5B89A291E2B4600864137 /* UIViewController+Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D5B899291E2B4600864137 /* UIViewController+Alert.swift */; };
+		21D5B89D291E2B6C00864137 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D5B89C291E2B6C00864137 /* BaseViewController.swift */; };
+		21D5B8A2291E2BE200864137 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D5B8A1291E2BE200864137 /* MockData.swift */; };
+		21D5B8A4291E2C5100864137 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D5B8A3291E2C5100864137 /* MainViewController.swift */; };
+		21D5B8A7291E2F3100864137 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 21D5B8A6291E2F3100864137 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		21D5B879291E22F000864137 /* FreeboardVersion2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreeboardVersion2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21D5B87C291E22F000864137 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21D5B87E291E22F000864137 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		21D5B880291E22F000864137 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		21D5B883291E22F000864137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21D5B886291E22F000864137 /* FreeboardVersion2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FreeboardVersion2.xcdatamodel; sourceTree = "<group>"; };
 		21D5B888291E22F100864137 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21D5B88B291E22F100864137 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21D5B88D291E22F100864137 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D5B899291E2B4600864137 /* UIViewController+Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alert.swift"; sourceTree = "<group>"; };
+		21D5B89C291E2B6C00864137 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		21D5B8A1291E2BE200864137 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		21D5B8A3291E2C5100864137 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21D5B8A7291E2F3100864137 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +66,83 @@
 		21D5B87B291E22F000864137 /* FreeboardVersion2 */ = {
 			isa = PBXGroup;
 			children = (
-				21D5B87C291E22F000864137 /* AppDelegate.swift */,
-				21D5B87E291E22F000864137 /* SceneDelegate.swift */,
-				21D5B880291E22F000864137 /* ViewController.swift */,
-				21D5B882291E22F000864137 /* Main.storyboard */,
-				21D5B888291E22F100864137 /* Assets.xcassets */,
-				21D5B88A291E22F100864137 /* LaunchScreen.storyboard */,
 				21D5B88D291E22F100864137 /* Info.plist */,
 				21D5B885291E22F000864137 /* FreeboardVersion2.xcdatamodeld */,
+				21D5B895291E2AB100864137 /* Model */,
+				21D5B893291E2AA500864137 /* Global */,
+				21D5B894291E2AAB00864137 /* Screen */,
 			);
 			path = FreeboardVersion2;
+			sourceTree = "<group>";
+		};
+		21D5B893291E2AA500864137 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				21D5B896291E2AE400864137 /* Resource */,
+				21D5B897291E2AF700864137 /* Support */,
+				21D5B898291E2B3A00864137 /* Extension */,
+				21D5B89B291E2B5800864137 /* Base */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		21D5B894291E2AAB00864137 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				21D5B89E291E2B9A00864137 /* Main */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		21D5B895291E2AB100864137 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21D5B8A1291E2BE200864137 /* MockData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		21D5B896291E2AE400864137 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				21D5B882291E22F000864137 /* Main.storyboard */,
+				21D5B88A291E22F100864137 /* LaunchScreen.storyboard */,
+				21D5B888291E22F100864137 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		21D5B897291E2AF700864137 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				21D5B87C291E22F000864137 /* AppDelegate.swift */,
+				21D5B87E291E22F000864137 /* SceneDelegate.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		21D5B898291E2B3A00864137 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				21D5B899291E2B4600864137 /* UIViewController+Alert.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		21D5B89B291E2B5800864137 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				21D5B89C291E2B6C00864137 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		21D5B89E291E2B9A00864137 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				21D5B8A3291E2C5100864137 /* MainViewController.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +161,9 @@
 			dependencies = (
 			);
 			name = FreeboardVersion2;
+			packageProductDependencies = (
+				21D5B8A6291E2F3100864137 /* SnapKit */,
+			);
 			productName = FreeboardVersion2;
 			productReference = 21D5B879291E22F000864137 /* FreeboardVersion2.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +192,9 @@
 				Base,
 			);
 			mainGroup = 21D5B870291E22F000864137;
+			packageReferences = (
+				21D5B8A5291E2F3100864137 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = 21D5B87A291E22F000864137 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -141,10 +222,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21D5B8A4291E2C5100864137 /* MainViewController.swift in Sources */,
+				21D5B89A291E2B4600864137 /* UIViewController+Alert.swift in Sources */,
 				21D5B887291E22F000864137 /* FreeboardVersion2.xcdatamodeld in Sources */,
-				21D5B881291E22F000864137 /* ViewController.swift in Sources */,
 				21D5B87D291E22F000864137 /* AppDelegate.swift in Sources */,
 				21D5B87F291E22F000864137 /* SceneDelegate.swift in Sources */,
+				21D5B8A2291E2BE200864137 /* MockData.swift in Sources */,
+				21D5B89D291E2B6C00864137 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +446,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		21D5B8A5291E2F3100864137 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		21D5B8A6291E2F3100864137 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 21D5B8A5291E2F3100864137 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		21D5B885291E22F000864137 /* FreeboardVersion2.xcdatamodeld */ = {
