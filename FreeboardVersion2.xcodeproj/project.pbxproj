@@ -17,7 +17,6 @@
 		21D5B89D291E2B6C00864137 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D5B89C291E2B6C00864137 /* BaseViewController.swift */; };
 		21D5B8A2291E2BE200864137 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D5B8A1291E2BE200864137 /* MockData.swift */; };
 		21D5B8A4291E2C5100864137 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D5B8A3291E2C5100864137 /* MainViewController.swift */; };
-		21D5B8A7291E2F3100864137 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 21D5B8A6291E2F3100864137 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +39,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21D5B8A7291E2F3100864137 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +160,6 @@
 			);
 			name = FreeboardVersion2;
 			packageProductDependencies = (
-				21D5B8A6291E2F3100864137 /* SnapKit */,
 			);
 			productName = FreeboardVersion2;
 			productReference = 21D5B879291E22F000864137 /* FreeboardVersion2.app */;
@@ -193,7 +190,6 @@
 			);
 			mainGroup = 21D5B870291E22F000864137;
 			packageReferences = (
-				21D5B8A5291E2F3100864137 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 21D5B87A291E22F000864137 /* Products */;
 			projectDirPath = "";
@@ -446,25 +442,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		21D5B8A5291E2F3100864137 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				branch = develop;
-				kind = branch;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		21D5B8A6291E2F3100864137 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 21D5B8A5291E2F3100864137 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		21D5B885291E22F000864137 /* FreeboardVersion2.xcdatamodeld */ = {
